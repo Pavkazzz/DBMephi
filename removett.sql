@@ -1,0 +1,1 @@
+drop trigger check_stat on statistic;

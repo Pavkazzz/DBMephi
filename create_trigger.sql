@@ -1,0 +1,3 @@
+CREATE TRIGGER check_stat
+BEFORE INSERT on statistic
+FOR EACH ROW EXECUTE PROCEDURE check_stat();
